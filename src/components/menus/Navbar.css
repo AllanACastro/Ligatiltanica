@@ -1,0 +1,30 @@
+.botao{
+    height: 100%;
+    width: 20%;
+    margin-inline: 1.5rem;
+    align-items: center;
+    vertical-align: mid;
+    border: solid 2px white;
+    border-radius: 8px;
+    padding-block: 0.2rem;
+    text-align: center;
+    
+}
+.botao:hover{
+    background-color: #61dafb3b;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.botao img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 0.3rem;
+}
+
+.nav-custom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
